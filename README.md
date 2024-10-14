@@ -5,6 +5,10 @@
 
 ## Overview
 This project implements a stock scanner to identify stocks that have reached a lifetime high, used that high as a strong support level, and subsequently experienced significant price appreciation. The scanner analyzes stock data from the last 10 years to determine how often these conditions occur, along with calculating the annual opportunities and the scanner's success rate.
+
+## Dataset
+The stock data is sourced from the National Stock Exchange of India (NSE). The CSV file containing the list of stocks can be downloaded from ![NSE Equity Archive](https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv)
+
 ## Features
 
 - Analyzes stocks listed in the provided NSElist.csv file
